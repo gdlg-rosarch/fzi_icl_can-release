@@ -1,0 +1,22 @@
+ros-indigo-fzi-icl-can (1.0.3-0trusty) trusty; urgency=high
+
+  * find icl_core components correctly
+  * Contributors: Felix Mauch
+
+ -- heppner <heppner@fzi.de>  Sun, 01 May 2016 22:00:00 -0000
+
+ros-indigo-fzi-icl-can (1.0.2-0trusty) trusty; urgency=high
+
+  * declared package as plain cmake package
+  * Contributors: Felix Mauch
+
+ -- heppner <heppner@fzi.de>  Sun, 01 May 2016 22:00:00 -0000
+
+ros-indigo-fzi-icl-can (1.0.1-0trusty) trusty; urgency=high
+
+  * Initial public commit of fzi_icl_can library
+  * Contributors: Georg Heppner, Jan Oberlaender, Hugo Ritzkowski, Felix Mauch, Thomas Schamm, Klaus Uhl
+
+ -- heppner <heppner@fzi.de>  Thu, 07 Apr 2016 22:00:00 -0000
+
+
