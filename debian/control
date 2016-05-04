@@ -1,0 +1,12 @@
+Source: ros-indigo-fzi-icl-can
+Section: misc
+Priority: extra
+Maintainer: heppner <heppner@fzi.de>
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-indigo-fzi-icl-core, ros-indigo-libpcan
+Homepage: http://wiki.ros.org/fzi_icl_can
+Standards-Version: 3.9.2
+
+Package: ros-indigo-fzi-icl-can
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-catkin, ros-indigo-fzi-icl-core, ros-indigo-libpcan
+Description: The fzi_icl_can package
