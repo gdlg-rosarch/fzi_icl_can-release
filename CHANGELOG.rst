@@ -2,6 +2,12 @@
 Changelog for package fzi_icl_can
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.4 (2016-05-04)
+------------------
+* get libpcan from ros package
+* add third-party specific package.xml tags and install rule
+* Contributors: Felix Mauch
+
 1.0.3 (2016-05-02)
 ------------------
 * find icl_core components correctly
