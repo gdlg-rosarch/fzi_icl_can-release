@@ -2,6 +2,16 @@
 Changelog for package fzi_icl_can
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.7 (2016-05-11)
+------------------
+* add popt as a dependency as it is needed for pcan
+* Contributors: Felix Mauch
+
+1.0.6 (2016-05-11)
+------------------
+* add dummy libpcan files so that findPKG will find the lib.
+* Contributors: Felix Mauch
+
 1.0.5 (2016-05-11)
 ------------------
 * build pcan library inside this package and provide a script to build the kernel module
