@@ -1,0 +1,75 @@
+ros-jade-fzi-icl-can (1.0.10-0trusty) trusty; urgency=high
+
+  * find system tinyxml
+  * remove unreachable error codes from parsing
+  * Contributors: Felix Mauch
+
+ -- heppner <heppner@fzi.de>  Sun, 06 Aug 2017 22:00:00 -0000
+
+ros-jade-fzi-icl-can (1.0.9-0trusty) trusty; urgency=high
+
+  * reset the project name after including the IcMaker
+  * Contributors: Felix Mauch
+
+ -- heppner <heppner@fzi.de>  Thu, 12 May 2016 22:00:00 -0000
+
+ros-jade-fzi-icl-can (1.0.8-0trusty) trusty; urgency=high
+
+  * added license information for pcan
+  * add wget as build dependency
+  * make the package a plain cmake package again
+  * Contributors: Felix Mauch
+
+ -- heppner <heppner@fzi.de>  Wed, 11 May 2016 22:00:00 -0000
+
+ros-jade-fzi-icl-can (1.0.7-0trusty) trusty; urgency=high
+
+  * add popt as a dependency as it is needed for pcan
+  * Contributors: Felix Mauch
+
+ -- heppner <heppner@fzi.de>  Tue, 10 May 2016 22:00:00 -0000
+
+ros-jade-fzi-icl-can (1.0.6-0trusty) trusty; urgency=high
+
+  * add dummy libpcan files so that findPKG will find the lib.
+  * Contributors: Felix Mauch
+
+ -- heppner <heppner@fzi.de>  Tue, 10 May 2016 22:00:00 -0000
+
+ros-jade-fzi-icl-can (1.0.5-0trusty) trusty; urgency=high
+
+  * build pcan library inside this package and provide a script to build the kernel module
+  * Contributors: Felix Mauch
+
+ -- heppner <heppner@fzi.de>  Tue, 10 May 2016 22:00:00 -0000
+
+ros-jade-fzi-icl-can (1.0.4-0trusty) trusty; urgency=high
+
+  * get libpcan from ros package
+  * add third-party specific package.xml tags and install rule
+  * Contributors: Felix Mauch
+
+ -- heppner <heppner@fzi.de>  Tue, 03 May 2016 22:00:00 -0000
+
+ros-jade-fzi-icl-can (1.0.3-0trusty) trusty; urgency=high
+
+  * find icl_core components correctly
+  * Contributors: Felix Mauch
+
+ -- heppner <heppner@fzi.de>  Sun, 01 May 2016 22:00:00 -0000
+
+ros-jade-fzi-icl-can (1.0.2-0trusty) trusty; urgency=high
+
+  * declared package as plain cmake package
+  * Contributors: Felix Mauch
+
+ -- heppner <heppner@fzi.de>  Sun, 01 May 2016 22:00:00 -0000
+
+ros-jade-fzi-icl-can (1.0.1-0trusty) trusty; urgency=high
+
+  * Initial public commit of fzi_icl_can library
+  * Contributors: Georg Heppner, Jan Oberlaender, Hugo Ritzkowski, Felix Mauch, Thomas Schamm, Klaus Uhl
+
+ -- heppner <heppner@fzi.de>  Thu, 07 Apr 2016 22:00:00 -0000
+
+
